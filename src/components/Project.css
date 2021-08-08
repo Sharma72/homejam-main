@@ -1,0 +1,46 @@
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+svg{
+	width: 200px;
+	height: 200px;
+	
+	transform: rotate(-90deg);
+	overflow: initial;
+}
+
+circle{
+	stroke-width:2px;
+	fill:none;	
+}
+circle:nth-child(1){ stroke: #fff }
+circle:nth-child(2){
+	stroke: #CC00FF; 
+	position: relative;
+	z-index: 1;
+
+	
+	
+}
+
+.circle_box{
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+}
+.circle_box div{
+	position: relative;
+}
+.circle_box span{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 40px;
+}
